@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: pink;
+}
+
+.header{
+    color: blue;
+    background-color:purple;
+    text-align: center;
+}
+
+
+.fa-brands{
+    font-size: 35px;
+    margin-right: 25px;
+    cursor: pointer;
+    
+}
+
+.container{
+    width: 80%;
+    padding: 10px;
+    margin: 200px auto;
+    background-color:bisque;
+    box-shadow: 15px 10px rgba(0, 30, 255, 0.542);
+}
+.box1{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.box2{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    color: blue;
+    list-style: none;
+
+}
+h1,h2,h3,h4,h5,p{
+    font-size: 25px;
+    color: blue;
+    margin: 0;
+}
+
+img{
+    border-radius: 50px;
+    box-shadow: 5px 5px 15px pink;
+    background-image:
+    linear-gradient(to right,rgba(0, 0, 255, 0.348),rgba(128, 0, 128, 0.482)),url(mallard-8284909_640.jpg);
+}
+.box3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box4{
+    display: flex;
+    width: 200px;
+}
+.box5 input{
+    width: 500px;
+}
+button{
+    color: blue;
+    cursor:pointer;
+}
+
+.isim{
+    animation-name: beyza;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    display: inline-block;
+    
+    
+}
+
+@keyframes beyza {
+    from{background-color: green;}
+    to{background-color: yellow;}
+    
+}
+.kopek1:hover,.kopek2:hover ,.kopek3:hover{
+    width: 400px;
+
+    
+}
